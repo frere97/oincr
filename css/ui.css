@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff2f6b9;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+.painel_esquerdo {
+    width: 15vw;
+}
+
+.layout {
+    overflow: hidden;
+    height: 100%;
+}
+
+.painel_direito {
+    width: 25vw;
+    float: left;
+    height: 100%;
+}
+
+.layout .meio {
+    height: 100%;
+    border-right: solid 1px #dda0dd;
+    box-sizing: border-box;
+    float: left;
+}
+
+@media (min-width: 1127px) {
+    .layout .meio {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1127px) {
+    .painel_direito {
+        display: none;
+    }
+    .painel_esquerdo {
+        display: none;
+    }
+    .meio {
+        width: 100%;
+    }
+    body {
+        margin: 0%;
+    }
+}

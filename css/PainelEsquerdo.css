@@ -1,0 +1,65 @@
+.layout .painel_esquerdo .botao_transparente
+{
+ 
+border: none;
+background: none;
+font-weight: bold;
+font-size: 150%;
+padding: 10px;
+
+}
+.layout .painel_esquerdo .botao_transparente img{ 
+  filter: opacity(0.5);
+}
+
+.layout .painel_esquerdo .botao_transparente:hover img  {
+  filter: opacity(1);
+}
+
+.layout .painel_esquerdo .botao_transparente:hover
+{
+  
+ 
+background-color:#fde0dd;
+border-radius: 30px;
+
+}
+.layout .painel_esquerdo button{outline: none;}
+
+
+
+
+
+.layout .painel_esquerdo .botao
+{
+ 
+    width: 80%;
+    border: none;
+    background-color: #FABFB7; 
+    font-weight: bolder;
+    font-size: 150%;
+    padding: 15px;
+    border-radius: 30px;
+
+
+}
+
+.layout .painel_esquerdo .botao:hover{
+  background-color:  rgb(211, 165, 159) ;
+}
+
+.layout .painel_esquerdo
+{
+
+
+height: 100%;
+border-right: solid 1px #dda0dd;
+margin-left: 10vw;
+/*display: inline-block;*/
+padding-right: 1%;
+box-sizing: border-box;
+float: left;
+
+}
+
+

@@ -1,0 +1,12 @@
+cor para botões: #FABFB7
+
+cor botão transparente: #fde0dd
+
+
+cor da linha de separação: #dda0dd
+
+cor das imagens de botoes: #dda0dd
+
+cor do fundo:  #fff2f6  #fae3ea    #F9CFDC  #FFEFF4   
+cor para destaque: #F9A195
+    

@@ -1,0 +1,165 @@
+.home {
+    padding-left: 3%;
+    border-bottom: solid 1px #dda0dd;
+    padding-bottom: 3%;
+}
+
+.meio .home .botao_transparente {
+    width: 8%;
+    height: 8%;
+    background: none;
+    border: none;
+    border-radius: 100%;
+    display: inline;
+    justify-content: space-between;
+}
+
+.meio .home .botao_transparente:hover {
+    outline: none;
+    background-color: #fde0dd;
+}
+
+.meio .home .botao_transparente img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 1127px) {
+    .responsivo {
+        display: none;
+    }
+    .home input {
+        display: none;
+    }
+}
+
+@media (max-width: 1127px) {
+    .meio .postar textarea:focus {
+        font-size: 300%;
+    }
+    .meio .postar textarea:focus::placeholder {
+        font-size: 100%;
+    }
+    .home p2 {
+        font-size: 20%;
+    }
+}
+
+.home {
+    overflow: hidden;
+}
+
+.meio .home input {
+    float: right;
+    margin-right: 5%;
+    border: 1px solid #dda0dd;
+    border-radius: 25px;
+    width: 60%;
+    height: 5%;
+    font-size: 100%;
+    background-color: #fae3ea;
+}
+
+.meio .postar img {
+    border-radius: 40%;
+}
+
+.meio .feed .Post {
+    border-bottom: solid 1px #dda0dd;
+}
+
+.meio .feed .Post a {
+    color: #dda0dd;
+}
+
+.meio .feed .Post p {
+    padding-left: 15%;
+}
+
+.meio .feed .Post .NomeDoPerfil {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.meio .feed .Post:hover {
+    background-color: #FFEFF4;
+}
+
+.meio .feed .Post .NomeDoPerfil:hover {
+    text-decoration: underline;
+}
+
+.meio .feed .Post img {
+    margin-left: 5%;
+    border-radius: 40%;
+}
+
+.meio .postar {
+    border-bottom: solid 15px #dda0dd9c;
+    padding-left: 3%
+}
+
+.meio .postar textarea {
+    resize: none;
+    border: none;
+    background: none;
+    overflow-y: hidden;
+}
+
+.meio .postar textarea:focus {
+    outline: none;
+}
+
+.meio .postar button:focus {
+    outline: none;
+}
+
+.meio .postar textarea::placeholder {
+    font-size: larger;
+    font-weight: bold;
+    color: #dda0dd;
+    text-align: left;
+    width: 100%;
+    font-size: 300%;
+}
+
+#botoesPost {
+    margin-left: 15%;
+}
+
+#botoesPost .botaoTransparente {
+    padding: 0%;
+    background: none;
+    border: none;
+    border-radius: 100%;
+}
+
+#botoesPost .botaoTransparente:focus {
+    outline: none;
+}
+
+#botoesPost .botaoTweet {
+    margin-left: 30%;
+    width: 15%;
+    padding: 1%;
+    margin-top: 0%;
+    border: none;
+    background-color: #FABFB7;
+    font-weight: bolder;
+    font-size: 100%;
+    border-radius: 30px;
+}
+
+#botoesPost .botaoTweet:hover {
+    background-color: rgb(211, 165, 159);
+}
+
+#botoesPost .botaoTransparente:hover {
+    background-color: #fde0dd;
+}
+
+#botoesPost button image {
+    align-self: center;
+    size: 100%;
+}
